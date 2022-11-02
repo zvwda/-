@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css"> 
+    <title>Document</title>
+</head>
+<body>
+
+    <header>  
+            <h1 class="logo">Photo Galary </h1> 
+            <a href="index.html" class="add-btn"> <button class="to-last-bage">list</button></a> 
+           
+    </header> 
+    
+<div class="first-line">
+    <h1>photo info</h1>
+</div>
+
+<section>
+    <div class="fin">
+        <label id="n">Name</label> 
+        <br></br>
+        <input type="text" id="name" class="name-input"> 
+    </div>
+   <div class="secin">
+    <label id="descreption">Descreption</label>
+    <br></br> 
+    <input type="text" id="desc" class="decreption"> 
+   </div>
+   <input type="file" onchange="displayImage(event)" multiple accept="image/*">
+   <div id="info" class="info"></div> 
+   
+    <input type="button"  class="add.btn" value="ADD"  onclick="Add()"> 
+</section>
+
+
+
+
+
+
+<script src="main2.js"></script> 
+</body>
+</html>

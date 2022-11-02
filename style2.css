@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    font-family: 'Nunito', sans-serif;  
+    margin: 0;
+}
+body{
+    background-color:rgb(201, 223, 255)  ;
+}
+header{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.logo{
+    padding: 12px;
+    padding-left: 50px;
+}
+.to-last-bage{
+    padding: 5px 35px;
+    margin-right: 50px;
+    border: none;
+    background-color: rgb(201, 223, 255)  ;
+   transition: .2s;
+}
+.to-last-bage:hover{
+transform: scale(1.1);
+}
+.add-btn{
+    text-decoration: none;
+}
+.first-line{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.first-line h1::after{
+content: "";
+position: absolute;
+background: #000;
+top: 50%;
+right:8%;
+width: 35%;
+height: 1px;
+
+}
+
+.first-line h1::before{
+    content: "";
+    position: absolute;
+    background: #000;
+    top: 50%;
+    left:8%;
+    width: 35%;
+    height: 1px;
+    
+    }
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+.fin{
+margin-top: 90px ;
+margin-bottom: 20px;
+}
+       .fin input{
+        width: 400px;
+        height: 30px
+       }
+       .fin label{
+        font-size: 30px;
+       }
+
+       .secin label{
+       
+        font-size: 30px;
+       }
+       .secin input{
+         width: 400px;
+         height: 60px;
+       }
+

@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    font-family: 'Nunito', sans-serif;  
+    margin: 0;
+}
+body{
+    background-color:rgb(201, 223, 255)  ;
+}
+header{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 12px;
+    padding-left: 50px;
+}
+.to-next-bage{
+    padding: 5px 35px;
+    margin-right: 50px;
+    border: none;
+    background-color: rgb(201, 223, 255)  ;
+    transition: .2s;
+}
+.love-btn{
+    background: none;
+    border: none;
+}
+.fa-regular{
+font-size: 30px;
+}
+.to-next-bage:hover{
+    transform: scale(1.1);
+}
+.add-btn{
+    color: #000;
+text-decoration: none;
+}
+.public-photos{
+    margin-top: 20px;   
+}
+.public-txt{
+    text-align: center;
+    font-size: 25px;
+    
+ position: relative;
+}
+.public-txt::after{
+content: "";
+    position: absolute;
+background: #000;
+top: 50%;
+right:8%;
+width: 35%;
+height: 1px;
+}
+.public-txt::before{
+    content: "";
+        position: absolute;
+    background: #000;
+    top: 50%;
+    left: 8%;
+    width: 35%;
+    height: 1px;
+    }
+    .contaner-card{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        
+        width: 20%;
+        height: 530px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .header-card{
+        display: flex ;
+        align-items: center;
+        background-color: aliceblue;
+    }
+    .header-card img{
+        width: 10%;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    .main-card img{
+        width:100%;
+        height:300px;
+        
+    }
+    .footer-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .likes{
+        display: flex;
+
+    }
+    i{
+        font-size: large;
+    }
+    .footer-card{
+        padding: 3.5%;
+    }
+    .all-likes i{
+        margin-left: 7.5px;
+    }
+    .local-photos{
+        margin-top: 20px;   
+    }
+    .local-txt{
+        text-align: center;
+        font-size: 25px;
+margin-top: 50px;
+margin-bottom: 50px;        
+     position: relative;
+    }
+    .local-txt::after{
+    content: "";
+        position: absolute;
+    background: #000;
+    top: 50%;
+    right:8%;
+    width: 35%;
+    height: 1px;
+    }
+    .local-txt::before{
+        content: "";
+            position: absolute;
+        background: #000;
+        top: 50%;
+        left: 8%;
+        width: 35%;
+        height: 1px;
+        }
+        .contaner-card .card .header-card .del-local{
+            margin-left: 55%;
+           transition: .2s;
+        }
+        .contaner-card .card .header-card .del-local:hover{
+            transform: scale(1.6);
+            
+        }
+
+    
+
+
+
+
+        

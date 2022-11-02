@@ -1,0 +1,29 @@
+<div class="card" id="card">
+
+<div class="header-card">
+    <img src="FB_IMG_1615820639570 (1).webp" alt="avatar">
+    <p>username</p> 
+    <div class="del-local" onclick="dellocal()">
+        <i class="fa-solid fa-trash"></i>
+    </div> 
+</div> 
+    
+<div class="main-card">
+  <img src="19_2017-636355607891559760-155.jpg" alt="photo">
+</div>
+
+<div class="footer-card">
+<div class="footer-header">
+    <h2>photo name</h2>
+<div class="all-likes">
+    <button class="love-btn" onclick="presslove()"> <i class="fa-regular fa-heart"></i> </button>
+<div class="likes">
+    <div class="conter" id="conter">0</div>
+    <p>likes</p> 
+   </div>
+</div>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, esse accusamus officiis iusto suscipit, eius, vitae iste magni nemo et quasi rem adipisci explicabo eaque soluta voluptates perferendis</p>   
+</div>
+
+</div> 
